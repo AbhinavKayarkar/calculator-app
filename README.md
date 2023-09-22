@@ -28,6 +28,8 @@
 4.	 .eslintrc.json file has been created.
 
 5.   Add this to eslint file
+
+
      	  "react/react-in-jsx-scope": "off",
           "semi": ["error", "always"],
           "quotes": ["error", "single"],
@@ -43,6 +45,8 @@
 
 
  6.  If you are using jest then you will find that eslint is giving us an error that test or expect is not defined . To fix this we           need to add "jest": true inside env.
+
+
 
           "env": {
             "browser": true,
@@ -100,6 +104,7 @@
 7 .  npm install eslint-config-prettier eslint-plugin-prettier prettier --save-dev
       or 
     yarn add eslint-config-prettier eslint-plugin-prettier prettier --dev
+    
 
 8. Make .prettierrc file in src
 
